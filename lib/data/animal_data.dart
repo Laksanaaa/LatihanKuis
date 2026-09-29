@@ -1,0 +1,58 @@
+import '../models/animal_model.dart';
+
+final List<Animal> animalList = [
+  Animal(
+    name: 'Harimau Bengal',
+    type: 'Mamalia',
+    habitat: ['Hutan'],
+    image: 'assets/harimau.png',
+    height: 110.0,
+    weight: 220.5,
+    activities: ['Berburu', 'Berenang', 'Menguasai Teritori'],
+  ),
+  Animal(
+    name: 'Komodo',
+    type: 'Reptil',
+    habitat: ['Pulau Komodo', 'Padang Rumput'],
+    image: 'assets/komodo.png',
+    height: 70.0,
+    weight: 90.2,
+    activities: ['Berburu', 'foto sama wisatawan'],
+  ),
+  Animal(
+    name: 'African Grey Parrot',
+    type: 'Bird',
+    habitat: ['Hutan Hujan'],
+    image: 'assets/parrot.png',
+    height: 33.0,
+    weight: 0.4,
+    activities: ['Nyanyi', 'Kontes'],
+  ),
+  Animal(
+    name: 'Green Sea Turtle',
+    type: 'Reptil',
+    habitat: ['Laut'],
+    image: "assets/turtle.png",
+    height: 150.0,
+    weight: 160.0,
+    activities: ['Berenang', 'Berburu Penjahat'],
+  ),
+  Animal(
+    name: 'Siberian Husky',
+    type: 'Anjing',
+    habitat: ['Tempat Dingin'],
+    image: 'assets/husky.png',
+    height: 60.0,
+    weight: 27.0,
+    activities: ['Lari larian', 'Main', 'Menggonggong'],
+  ),
+  Animal(
+    name: 'Giant Panda',
+    type: 'Mamalia',
+    habitat: ['Hutan Bambu'],
+    image: 'assets/panda.png',
+    height: 90.0,
+    weight: 115.0,
+    activities: ['Makan Bambu', 'Pose Gemas', 'Turu'],
+  ),
+];
